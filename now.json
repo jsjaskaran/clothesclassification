@@ -1,4 +1,4 @@
 {
     "version": 2,
-    "builds": [{"src": "app/server.py", "use": "@now/python"}]
+    "builds": [{"src": "app/server.py", "use": "@now/python", "config": {"maxLambdaSize": "1000mb"}}]
 }
